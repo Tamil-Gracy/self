@@ -240,3 +240,33 @@ footer li{
 footer li a:hover{
     color:#fff;
 }
+.mob-menu-btn{
+
+    display:none;
+
+}
+@media screen and (max-width:767px) {
+    .mob-menu-btn{
+
+    display:block;
+
+}
+.menu{
+    display: none;
+}
+.menu.active{
+    position:absolute;
+    top:90px;
+    left: 0;
+    width: 100%;
+    flex-direction: column;
+    background: #fff;
+    color: #000;
+    z-index: 999;
+    display:flex;
+    padding: 40px;
+}
+.menu.active li{
+    padding:10px;
+}
+}
