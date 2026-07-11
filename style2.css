@@ -1,3 +1,8 @@
+*{
+    font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
 body{
     margin:0;
     padding:0;
@@ -197,10 +202,10 @@ footer{
 .socialmedia{
     display: flex;
     gap: 30px;
-    padding-top: 20px;
 }
 .socialmedia i{
-    font-size:36px;
+    font-size:18px;
+    color:#3e4146;
 }
 .copy{
     text-align: center;
@@ -225,3 +230,13 @@ footer{
     width: 25px;
     height: 25px;
 } 
+footer a{
+    color:#000;
+    text-decoration: none;
+}
+footer li{
+    padding: 10px;
+}
+footer li a:hover{
+    color:#fff;
+}
