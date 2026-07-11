@@ -113,3 +113,37 @@ body{
     color:#000;
     background-color: orange;
 }
+.menu-cards{
+    display: flex;
+    gap:5px;
+    background-color: orange;
+}
+.menu-cards .menu-img{
+    padding:20px;
+}
+.menu-items .item{
+    display: flex;
+    gap:30px;
+    align-items: center;
+    background-color: #f2cf7e;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 30px;
+}
+.menu-list h3{
+    text-align: center;
+}
+.menu-items hr{
+    flex:1;
+    border:none;
+    border-bottom:3px dotted #000;
+}
+.col-50{
+    width:50%;
+}
+.pt-40{
+    padding:40px;
+}
+.heading{
+    padding:40px;
+}
