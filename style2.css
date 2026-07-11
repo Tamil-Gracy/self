@@ -144,6 +144,9 @@ body{
 .pt-40{
     padding:40px;
 }
+.menu-list{
+    padding-right:20px;
+}
 .heading{
     padding:40px;
 }
