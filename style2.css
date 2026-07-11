@@ -86,7 +86,7 @@ body{
     border: 1px solid #eee;
     margin: 5px;
 }
-.popular-dishes h2{
+.popular-dishes h2,.todays-menu h2{
     text-align: center;
 
 }
