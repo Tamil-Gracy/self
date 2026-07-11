@@ -93,12 +93,13 @@ body{
 .dishes_card__img img{
     width: 100%;
 }
-.dishes_card__order .btn{
+.red-btn{
     background-color: #cd1c18;
     border-radius: 5px;
     padding: 10px;
     color: #fff;
     text-decoration: none;
+    border:none;
 }
 .dishes-details {
     padding: 20px;
@@ -127,7 +128,7 @@ body{
     align-items: center;
     background-color: #f2cf7e;
     padding: 10px;
-    margin: 10px;
+    margin: 9px;
     border-radius: 30px;
 }
 .menu-list h3{
@@ -146,7 +147,61 @@ body{
 }
 .menu-list{
     padding-right:20px;
+    padding-bottom:20px;
 }
 .heading{
     padding:40px;
+    text-align: center;
+}
+.review-cards{
+    display: flex;
+    justify-content: space-between;
+}
+.review-card{
+    border:1px solid #ccc;
+    margin: 5px;
+    padding: 20px;
+    border-radius: 20px;
+}
+.review-card .profile{
+        display: flex;
+    align-items: center;
+}
+.contact-us .d-flex{
+    display: flex;
+    justify-content:center;
+    gap:40px;
+}
+.contact-us table{
+    width:100%;
+}
+input, textarea {
+    padding: 10px;
+    width: 80%;
+    margin: 10px;
+}
+footer{
+    background-color: #ffbf00;
+}
+.footer{
+        display: flex;
+    justify-content: space-between;
+    gap:40px;
+    padding:40px
+}
+.w-100{
+    width:100%;
+}
+.socialmedia{
+    display: flex;
+    gap: 30px;
+    padding-top: 20px;
+}
+.socialmedia i{
+    font-size:36px;
+}
+.copy{
+    text-align: center;
+    padding: 20px;
+    margin: 0;
 }
