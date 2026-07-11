@@ -1,0 +1,60 @@
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:#384959;
+    padding:15px 40px;
+}
+
+.logo{
+    color:white;
+}
+
+.menu{
+    list-style:none;
+    display:flex;
+    gap:25px;
+}
+
+.menu a{
+    color:white;
+    text-decoration:none;
+    font-size:18px;
+}
+
+.menu a:hover{
+    color:orange;
+}
+.intro{
+    text-align: center;
+}
+.intro .intro__img{
+    border-radius: 100%;
+    width:100px;
+    height:100px;
+}
+.profile-card{
+        margin-left: 25%;
+        margin-right: 25%;
+        background-color:#88bde369;
+        padding:20px;
+}
+.about ul{
+    list-style-type: "☑";
+}
+.about ul li{
+        padding: 5px;
+}
+hr{
+    width: auto;
+}
+table{
+    border:1px solid #000;
+}
+.thead{
+    background-color: #BDDDFC;
+}
+th,td{
+    padding:10px;
+    text-align: center;
+}
